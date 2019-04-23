@@ -1,5 +1,4 @@
 # vimPractice
-<<<<<<< HEAD
 
 ## Reference
 [Practical Vim](https://book.douban.com/subject/10599776/)  
@@ -8,5 +7,4 @@
 
 ## note
 [vimBasics.md](./vimBasics.md)
-=======
->>>>>>> c83ab2ba87c3d7b1ad9bffbe40823301b74089cc
+
