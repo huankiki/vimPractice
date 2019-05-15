@@ -1,0 +1,113 @@
+ctrl z	在普通模式下按 ctrl + z 就能返回终端
+fg fg 1 fg 2	将后台作业(在后台运行的或者在后台挂起的作业)放到前台终端运行
+
+vim file +5 打開文件後，定位第五行	
+
+:q
+:wq
+:q!
+
+:set number 
+:set nu
+
+i 插入文本
+o 行后插入新行
+O 行前插入新行
+s 删除光标处的字符
+S 删除光标所在的一整行
+a 在光标所在的字符的后面插入字符
+A 在光标所在行的后面插入字符
+u 撤销上次操作
+ctrl+r 恢复上次操作
+U 撤銷所有操作
+
+jkhl 移動，下上左右
+0 行首
+$ 行尾
+gg 文件开头
+G 文件结尾
+10k 往上移10行 
+10j 往下移10行
+% 跳到符号的另一半，如中括号
+b 单词开头
+e 单词结尾
+
+# 選擇文本
+v 从当前字符开始选择
+V 选定当前一整行
+Ctrl+v 列选择
+
+# 編輯文本
+yy 复制当前行
+选定后y 复制某一块文本
+p 在当前位置后面粘贴
+P 在当前位置前面粘贴
+dd 删除当前一整行
+选定后d 删除选定文本块
+x 删除当前字符
+选定后u全部转成小写
+选定后U全部转成大写
+
+# 查找替换
+/正则表达式	 向下查找
+?正则表达式	 向上查找
+\<..\> 全词匹配
+n 跳到下一个匹配处
+N 跳到上一个匹配处
+:%s/正则/目标字符串/g  全局替换
+:s/正则/目标字符串/g   v选定后，局部替换
+:10,20s/正则/目标字符串/g  替换某些行的内容 
+
+# 多窗口顯示
+:sp :split file  水平分屏
+:vsp :vsplit file  垂直分屏
+:vs file    在新的垂直分屏中打开文件
+:sv file    在新的水平分屏中打开文件
+
+# grep
+# 常用
+grep -o -n -P -i -w -x -c -I -v 
+grep -r -I 'Invalid' .
+-P --perl-regexp 讲正则理解为Perl/Python的格式
+-i --ignore-case 忽略大小写
+-v --invert-match 反向匹配，输出未匹配的所有行
+-w --word-regexp 按整个单词匹配，而不是部分匹配，相当于’\<pattern\>’
+-x --line-regexp 一整行完全匹配，相当于’^pattern$’
+-c --count 输出总共有多少行匹配
+-L --files-without-match 只输出一行都没有匹配上的那些文件
+-l --files-with-matches 只输出能匹配上的那些文件名
+-o --only-matching 只输出匹配上pattern的那一部分，而非整行
+-n --line-number 输出行号，指明那是第几行匹配上的
+-I --binary-files=without-match 不匹配二进制文件
+-r --recursive 递归地匹配某目录
+
+# sed
+sed '/string/a newstring' file
+
+sed '/string/i newstring' file
+
+sed '/string/c newstring' file
+
+sed '/string/d' file
+
+sed 's/pattern/newstring/' file
+
+sed 's/pattern/newstring/g' file
+
+sed '1d' file
+
+sed '1,2d' file
+
+sed '1i test' file
+
+# awk
+未完待續...
+
+awk '(NR==FNR){gsub(/[",\)\(]/, "", $0); split($0, a, /\^_\^/); map[a[2]]=a[1];} (NR>FNR){print map[$0]"^_^"$0}' tmp zhongwen
+
+
+Date: Fri Apr 27 16:14:26 CST 2018
+
+
+
+
