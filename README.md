@@ -9,7 +9,7 @@
 [Vim User Manual](http://vimdoc.sourceforge.net/)  
 [Vim 中文用户手册](https://github.com/yianwillis/vimcdoc)
 
-## note
+## Note
 [vimBasics.md](./vimBasics.md)
 
 ## Next
