@@ -3,11 +3,11 @@
 ## Reference
 [Practical Vim](https://book.douban.com/subject/10599776/)  
 [《Vim实用技巧》](https://book.douban.com/subject/25869486/)  
-[书中所有的示例和源代码](https://pragprog.com/titles/dnvim/source_code)
+[书中所有的示例和源代码](https://pragprog.com/titles/dnvim/source_code)  
 
-## 快速入门指南
 [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)  
-[Most Productive Shortcut with Vim](https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118)
+[Vim User Manual](http://vimdoc.sourceforge.net/)
+
 
 ## note
 [vimBasics.md](./vimBasics.md)
