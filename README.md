@@ -6,11 +6,14 @@
 [书中所有的示例和源代码](https://pragprog.com/titles/dnvim/source_code)  
 
 [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)  
-[Vim User Manual](http://vimdoc.sourceforge.net/)
-
+[Vim User Manual](http://vimdoc.sourceforge.net/)  
+[Vim 中文文档](https://github.com/yianwillis/vimcdoc)
 
 ## note
 [vimBasics.md](./vimBasics.md)
+
+## Next
+阅读vim文档
 
 ## List
 |command|Description|
