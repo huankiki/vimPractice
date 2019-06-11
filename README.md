@@ -7,13 +7,13 @@
 
 [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)  
 [Vim User Manual](http://vimdoc.sourceforge.net/)  
-[Vim 中文文档](https://github.com/yianwillis/vimcdoc)
+[Vim 中文用户手册](https://github.com/yianwillis/vimcdoc)
 
 ## note
 [vimBasics.md](./vimBasics.md)
 
 ## Next
-阅读vim文档
+阅读Vim用户手册。已上传：[vim_user_manual-zh-2.1.0.pdf](./vim_user_manual-zh-2.1.0.pdf)
 
 ## List
 |command|Description|
